@@ -2,6 +2,24 @@
   width: 30px;
   height:30px;
 }
+.navigation{
+  float: right;
+}
 .google-search{
   justify-content: center;
+}
+.bott-nav{
+  display: inline;
+}
+#l-bott-nav{
+  float: left;
+}
+#r-bott-nav{
+  float: right;
+}
+#search-box{
+  border: medium;
+}
+li{
+  display: inline;
 }
