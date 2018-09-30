@@ -9,7 +9,7 @@ li img{
 .navigation{
   position: relative;
   top: 0px;
-  right: 2px;
+  margin-right: 10px;
   width: 100%;
   font-size: 13px;
   text-decoration: none;
@@ -23,11 +23,11 @@ li{
   margin: 20px 15px 0px 0px;
 }
 #button-signin{
-  margin-right: 30px;
   background-color: #4285f4;
   color: #fff;
   font-weight: bold;
   line-height: 28px;
+  margin-right: 20px;
   display: inline-block;
   border: 1px solid #4285f4;
   border-radius: 2px;
@@ -57,11 +57,22 @@ input[type="text"]{
   width: 50%;
 }
 .bott-nav{
-  display: inline;
-  background-color:
-  bottom: 0;
-  width: 100%;
-  position: absolute;
+    bottom: 0;
+    font-size: 10px;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #f4f4f4;
+    border-top-width: 2px;
+    border-top-color: #666;
+    
+}
+.bott-nav ul{
+  margin-top: 10px;
+}
+.bott-nav ul li a{
+  color: #666;
 }
 #l-bott-nav{
   float: left;
@@ -72,7 +83,7 @@ input[type="text"]{
 #search-box{
   border: medium;
 }
-}
+
 input[type="submit"]:hover{
   background-color: #f8f8f8;
   height: 36px;
@@ -117,12 +128,9 @@ a:hover{
   text-decoration: underline;
 }
 .body{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
   text-align: center;
 }
 body{
   font: arial,sans-serif;
+  overflow: hidden;
 }
